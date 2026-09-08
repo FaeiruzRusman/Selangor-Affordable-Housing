@@ -1,28 +1,26 @@
 # Selangor Affordable Housing Intelligence — SUO
 
-Dashboard Perumahan Mampu Milik Negeri Selangor untuk Selangor Urban Observatory (SUO).
+Dashboard Perumahan Mampu Milik Negeri Selangor untuk **Selangor Urban Observatory (SUO)**.
 
 ## Version
-**v1.1 — Verified-data build**
+**v1.2 — SUO visual identity**
 
-Perubahan utama berbanding v1.0:
-- Semua angka demo daerah dibuang.
-- KPI negeri dipautkan kepada sumber rasmi 2026.
-- 9 projek Rumah Idaman dalam pembinaan dimasukkan dengan jumlah unit, daerah dan jangka siap.
-- 6 projek Rumah Idaman siap dimasukkan sebagai rekod nama/status rasmi; unit individu dibiarkan kosong sehingga sumber rasmi project-level diperoleh.
-- `source_id` diwujudkan untuk audit trail.
-- Masterlist tersedia dalam JSON dan CSV.
-- Peta menunjukkan **agregat daerah** untuk pipeline; ia tidak mendakwa sebagai lokasi tepat projek.
-- Koordinat projek kekal `null` sehingga disahkan.
+### Perubahan v1.2
+- Logo rasmi SUO yang dibekalkan digunakan pada sidebar dan footer.
+- Skim warna dashboard diselaraskan dengan logo SUO: merah, jingga, kuning keemasan, charcoal dan warm-white.
+- Sidebar ditukar kepada latar cerah supaya logo kekal jelas dan harmoni.
+- KPI, chart, navigation, map marker dan status accent menggunakan palet SUO.
+- Struktur data v1.1 dikekalkan.
+- Missing asset files v1.1 dibina semula (`assets/css`, `assets/js`, `data/*.json`).
 
 ## Repository structure
-
 ```text
 /
 ├── index.html
 ├── assets/
 │   ├── css/styles.css
-│   └── js/app.js
+│   ├── js/app.js
+│   └── img/suo-logo.png
 ├── data/
 │   ├── state_summary.json
 │   ├── projects.json
@@ -33,41 +31,17 @@ Perubahan utama berbanding v1.0:
 └── README.md
 ```
 
-## GitHub Pages
-1. Upload semua fail/folder ke branch `main`.
-2. GitHub → **Settings → Pages**
-3. **Deploy from a branch**
-4. Branch: `main`
-5. Folder: `/ (root)`
-6. Save.
+## Update existing GitHub repository
+Repository: `FaeiruzRusman/Selangor-Affordable-Housing`
 
-URL repository pengguna:
-`https://faeiruzrusman.github.io/Selangor-Affordable-Housing/`
+Replace/upload **all files and folders** from this package to the root of the `main` branch. GitHub Pages can remain configured as `main / (root)`.
 
-## Data principles
-1. Jangan isi angka berdasarkan anggaran jika dashboard memaparkannya sebagai data rasmi.
-2. Gunakan `null` jika maklumat belum dapat disahkan.
-3. Setiap rekod projek perlu mempunyai `source_id`.
-4. Koordinat projek perlu mempunyai catatan `location_precision`.
-5. Jangan campur aggregate state-level dengan project-level unit counts jika pecahan projek tidak tersedia.
+Website: `https://faeiruzrusman.github.io/Selangor-Affordable-Housing/`
 
-## Current verified sources
-- Dewan Negeri Selangor — Prestasi PKNS (2026)
-- Dewan Negeri Selangor — Perumahan PPR / Smart Sewa / Rumah Selangorku (2026)
-- Dewan Negeri Selangor — Rumah Idaman Selangor (2026)
-- Lampiran No. 3(a), projek Rumah Idaman dalam pembinaan (2026)
-- LPHS — Senarai Projek Rumah Selangorku 15 Januari 2026
-- LPHS portal — notis senarai projek terkini dikemas kini sehingga Jun 2026
-- Dewan Negeri Selangor — harga Rumah Selangorku 3.0 (2026)
-- Dewan Negeri Selangor — snapshot Daerah Kuala Selangor (2026)
-
-Lihat `data/sources.json` untuk URL dan kegunaan setiap sumber.
-
-## Next data upgrade
-- Masterlist penuh Rumah Selangorku terkini sehingga Jun 2026.
-- Koordinat/geometry projek yang disahkan.
-- PBT, mukim, DUN dan parcel.
-- Progress % tapak.
-- Harga / kategori / unit split setiap projek.
-- Waiting list mengikut daerah/PBT.
-- Household income + population + transit + jobs untuk Housing Need / Affordability Gap Index.
+## SUO palette
+- Red `#D6282F`
+- Orange `#EE6425`
+- Orange 2 `#F27A21`
+- Gold `#F6AA1C`
+- Charcoal `#211F20`
+- Warm background `#FFF8F1`

@@ -1,77 +1,42 @@
 [
   {
+    "district": "Hulu Langat",
+    "units": 2252,
+    "projects": 2,
+    "map_point": [
+      3.0218,
+      101.7594
+    ],
+    "map_point_type": "district representative point"
+  },
+  {
     "district": "Kuala Selangor",
-    "scheme": "Rumah Selangorku",
-    "approved_projects": 41,
-    "approved_units": 15997,
-    "completed_projects": 21,
-    "completed_units": 4697,
-    "construction_projects": 5,
-    "construction_units": 1748,
-    "planning_projects": 15,
-    "planning_units": 9552,
-    "as_of": "2026-04-01",
-    "source_id": "SRC-DUN-KS-2026",
-    "coverage": "Verified district snapshot; not statewide completeness"
+    "units": 1048,
+    "projects": 1,
+    "map_point": [
+      3.3402,
+      101.2474
+    ],
+    "map_point_type": "district representative point"
   },
   {
     "district": "Petaling",
-    "scheme": "Rumah Idaman Selangor",
-    "approved_projects": null,
-    "approved_units": null,
-    "completed_projects": null,
-    "completed_units": null,
-    "construction_projects": 2,
-    "construction_units": 7832,
-    "planning_projects": null,
-    "planning_units": null,
-    "as_of": "2026-05",
-    "source_id": "SRC-IDAMAN-PIPELINE-2026",
-    "coverage": "Derived from verified 2026 under-construction project list"
+    "units": 7832,
+    "projects": 2,
+    "map_point": [
+      3.1073,
+      101.6067
+    ],
+    "map_point_type": "district representative point"
   },
   {
     "district": "Sepang",
-    "scheme": "Rumah Idaman Selangor",
-    "approved_projects": null,
-    "approved_units": null,
-    "completed_projects": null,
-    "completed_units": null,
-    "construction_projects": 4,
-    "construction_units": 2949,
-    "planning_projects": null,
-    "planning_units": null,
-    "as_of": "2026-05",
-    "source_id": "SRC-IDAMAN-PIPELINE-2026",
-    "coverage": "Derived from verified 2026 under-construction project list"
-  },
-  {
-    "district": "Kuala Selangor",
-    "scheme": "Rumah Idaman Selangor",
-    "approved_projects": null,
-    "approved_units": null,
-    "completed_projects": null,
-    "completed_units": null,
-    "construction_projects": 1,
-    "construction_units": 1048,
-    "planning_projects": null,
-    "planning_units": null,
-    "as_of": "2026-05",
-    "source_id": "SRC-IDAMAN-PIPELINE-2026",
-    "coverage": "Derived from verified 2026 under-construction project list"
-  },
-  {
-    "district": "Hulu Langat",
-    "scheme": "Rumah Idaman Selangor",
-    "approved_projects": null,
-    "approved_units": null,
-    "completed_projects": null,
-    "completed_units": null,
-    "construction_projects": 2,
-    "construction_units": 2252,
-    "planning_projects": null,
-    "planning_units": null,
-    "as_of": "2026-05",
-    "source_id": "SRC-IDAMAN-PIPELINE-2026",
-    "coverage": "Derived from verified 2026 under-construction project list"
+    "units": 2949,
+    "projects": 4,
+    "map_point": [
+      2.6914,
+      101.7505
+    ],
+    "map_point_type": "district representative point"
   }
 ]
