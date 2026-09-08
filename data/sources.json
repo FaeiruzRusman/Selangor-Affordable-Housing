@@ -1,0 +1,87 @@
+[
+  {
+    "source_id": "SRC-DUN-RSKU-PERF-2026",
+    "title": "Prestasi Perbadanan Kemajuan Negeri Selangor (PKNS) — Dewan Negeri Selangor",
+    "url": "https://dewan.selangor.gov.my/question/prestasi-perbadanan-kemajuan-negeri-selangor-pkns-3/",
+    "used_for": [
+      "RSKU offered 2021–2025",
+      "RSKU target",
+      "achievement percentage"
+    ],
+    "source_date": "2026"
+  },
+  {
+    "source_id": "SRC-DUN-HOUSING-2026",
+    "title": "Perumahan (PPR / Smart Sewa / Rumah Selangorku) — Dewan Negeri Selangor",
+    "url": "https://dewan.selangor.gov.my/question/perumahan-ppr-smart-sewa-rumah-selangorku/",
+    "used_for": [
+      "PPR waiting/available/occupied/damaged",
+      "Smart Sewa waiting/available/occupied",
+      "RSKU completed/occupied/unsold/waiting"
+    ],
+    "source_date": "2026"
+  },
+  {
+    "source_id": "SRC-DUN-IDAMAN-2026",
+    "title": "Rumah Idaman Selangor — Dewan Negeri Selangor",
+    "url": "https://dewan.selangor.gov.my/question/rumah-idaman-selangor-3/",
+    "used_for": [
+      "6 completed project names",
+      "7,702 completed units",
+      "9 construction project names",
+      "14,081 construction units"
+    ],
+    "source_date": "2026"
+  },
+  {
+    "source_id": "SRC-IDAMAN-PIPELINE-2026",
+    "title": "Lampiran Projek Rumah Idaman Dalam Pembinaan (No. 3(a)) — Dewan Negeri Selangor",
+    "url": "https://dewan.selangor.gov.my/wp-content/uploads/2026/05/no-3-a.pdf",
+    "used_for": [
+      "project unit counts",
+      "district",
+      "expected completion"
+    ],
+    "source_date": "2026-05"
+  },
+  {
+    "source_id": "SRC-LPHS-RSKU-JAN2026",
+    "title": "Senarai Projek Rumah Selangorku — LPHS, 15 Jan 2026",
+    "url": "https://lphs.selangor.gov.my/storage/portal/senaraiProjek/Senarai_Projek_15_JAN_2026.pdf",
+    "used_for": [
+      "Pangsapuri Indah Selangorku project record",
+      "developer",
+      "mukim",
+      "type",
+      "price"
+    ],
+    "source_date": "2026-01-15"
+  },
+  {
+    "source_id": "SRC-LPHS-PORTAL-2026",
+    "title": "Portal Rasmi LPHS",
+    "url": "https://lphs.selangor.gov.my/",
+    "used_for": [
+      "Latest project-list notice updated through June 2026"
+    ],
+    "source_date": "2026-09-08"
+  },
+  {
+    "source_id": "SRC-DUN-RSKU-PRICE-2026",
+    "title": "Harga Rumah dan Caj Pemajuan Terhadap Pemaju — Dewan Negeri Selangor",
+    "url": "https://dewan.selangor.gov.my/question/harga-rumah-dan-caj-pemajuan-terhadap-pemaju/",
+    "used_for": [
+      "Rumah Selangorku 3.0 controlled price range RM114,750–RM250,000"
+    ],
+    "source_date": "2026"
+  },
+  {
+    "source_id": "SRC-DUN-KS-2026",
+    "title": "Status Rumah Selangorku di DUN Bukit Melawati — Dewan Negeri Selangor",
+    "url": "https://dewan.selangor.gov.my/question/status-rumah-selangorku-di-dun-bukit-melawati/",
+    "used_for": [
+      "Kuala Selangor district RSKU snapshot: 15,997 approved; 4,697 completed; 1,748 construction; 9,552 planning"
+    ],
+    "source_date": "2026-04-01"
+  }
+]

@@ -1,0 +1,23 @@
+﻿field,description
+project_id,Unique project identifier for SUO dashboard
+scheme,Housing programme / scheme
+project_name,Official or normalized project name
+district,Selangor administrative district
+pbt,Local authority where verified
+mukim,Mukim where verified
+developer,Developer / implementing entity where verified
+category,RSKU/Idaman category where verified
+house_type,Housing type
+units,Project-level unit count; null where not officially verified
+price_min_rm,Minimum controlled / offered price in RM where verified
+price_max_rm,Maximum controlled / offered price in RM where verified
+status,Current verified project status
+progress_pct,Construction progress; null until official project-level progress is available
+expected_completion,Expected completion year/date
+completed_year,Actual completion year where verified
+latitude,Verified latitude; null until verified
+longitude,Verified longitude; null until verified
+location_precision,Describes spatial precision / confidence
+source_id,Foreign key to sources.json
+source_date,Source snapshot date
+verification,Notes on what is and is not verified

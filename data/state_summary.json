@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "dashboard_version": "1.1",
+    "snapshot": "2026",
+    "last_verified": "2026-09-08",
+    "note": "Only figures traceable to cited official Selangor sources are used. Missing fields remain null."
+  },
+  "rumah_selangorku": {
+    "offered_2021_2025": 59263,
+    "target_2021_2025": 60000,
+    "achievement_pct": 98.77,
+    "completed_units": 52750,
+    "occupied_or_sold_units": 52634,
+    "unsold_units": 116,
+    "waiting_list": 10643,
+    "price_min_rm": 114750,
+    "price_max_rm": 250000
+  },
+  "rumah_idaman": {
+    "completed_units": 7702,
+    "completed_projects": 6,
+    "under_construction_units": 14081,
+    "under_construction_projects": 9
+  },
+  "ppr": {
+    "waiting_list": 184,
+    "available_units": 15,
+    "occupied_units": 2337,
+    "damaged_units": 80
+  },
+  "smart_sewa": {
+    "waiting_list": 0,
+    "available_units": 1248,
+    "occupied_units": 878,
+    "damaged_units": 0
+  }
+}
